@@ -1,0 +1,23 @@
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  display: flex;
+  width: 25vw;
+  color: lightgray;
+  border: 1px solid lightgray;
+}
+
+.inner-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+}
+
+img {
+  margin: 50px;
+}
