@@ -1,5 +1,5 @@
 
-function myFunction() {
+/*function myFunction() {
     var input,filter,ul,li, a,i, txtValue;
     input = document.getElementById("photosearch");
     filter = input.value.toLowerCase();
@@ -14,4 +14,4 @@ function myFunction() {
           a[i].style.display = "none";
         }
       }
-    }
+    }*/
