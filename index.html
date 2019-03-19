@@ -37,6 +37,18 @@
       var x = document.getElementById("photosearch");
       x.value = x.value.toLowerCase();
       console.log(x.value);
+
+      var y = document.getElementById('gallery').getAttribute('data-title');
+      y.value = y.value.toLowerCase();
+      console.log(y.value);
+
+      var str = y.value;
+      var n = str.includes(x.value);
+      if (n = true) {
+      x.style.display = 'flex';
+      } else {
+      x.style.display = 'none';
+      }
     }
     </script>
   </body>
