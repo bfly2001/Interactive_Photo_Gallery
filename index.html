@@ -38,18 +38,21 @@
       x.value = x.value.toLowerCase();
       console.log(x.value);
 
-      var y = document.getElementById('gallery').getAttribute('data-title');
-      y.value = y.value.toLowerCase();
-      console.log(y.value);
+      const a_tags = document.querySelectorAll('.inner-wrapper a');
 
-      var str = y.value;
+      for (let i = 0; i < a_tags.length; i++) {
+
+      var str = a_tags[i].getAttribute('data-title').toLocaleLowerCase();
       var n = str.includes(x.value);
-      if (n = true) {
-      x.style.display = 'flex';
-      } else {
-      x.style.display = 'none';
-      }
+
+        if (n = true) {
+          console.log(a_tags[i]);
+        }
+        else {
+          console.log(a_tags[i]);
+        }
     }
+  }
     </script>
   </body>
 </html>
