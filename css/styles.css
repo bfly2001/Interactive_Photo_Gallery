@@ -1,6 +1,7 @@
 form {
   display: flex;
   justify-content: center;
+  margin-bottom: 25px;
 }
 
 input {
@@ -19,6 +20,7 @@ input {
   justify-content: space-evenly;
 }
 
-img {
-  margin: 50px;
+a {
+  margin: auto;
+  margin-bottom: 25px;
 }
